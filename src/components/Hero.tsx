@@ -116,7 +116,7 @@ export function Hero() {
           <div className="relative">
             <div className="overflow-hidden rounded-t-[999px] rounded-b-[36px] border-[6px] border-cocoa-900 shadow-[12px_12px_0_0_rgba(23,12,3,0.85)]">
               <img
-                src={`${import.meta.env.BASE_URL}images/hero-bread.jpg`}
+                src="/images/hero-bread.jpg"
                 alt="Aneka roti rumahan fresh dari oven RotiRumah"
                 className="aspect-[4/5] w-full object-cover transition-transform duration-700 hover:scale-105"
               />
