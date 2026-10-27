@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "6281234567890";
+export const WHATSAPP_NUMBER = "62895364710807";
 
 export const rupiah = (n: number) =>
   "Rp" + n.toLocaleString("id-ID", { maximumFractionDigits: 0 });
