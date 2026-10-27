@@ -185,7 +185,7 @@ export const PACKAGES: Package[] = [
     price: 125000,
     originalPrice: 141000,
     items: ["1 Bolen Pisang Keju", "1 Roti Sobek Keju", "Kartu ucapan + pita"],
-    image: "/images/hampers.jpg",
+    image: import.meta.env.BASE_URL + "images/hampers.jpg",
     accent: "papaya",
   },
 ];
