@@ -427,7 +427,7 @@ export function HampersBuilder({ onAdd }: { onAdd: AddToCart }) {
           {/* Summary */}
           <Reveal delay={200}>
             <div className="sticky top-24 overflow-hidden rounded-3xl border-2 border-cocoa-900 bg-cocoa-900 text-cocoa-50 shadow-[8px_8px_0_0_rgba(255,197,61,1)]">
-              <img src="/images/hampers.jpg" alt="Hampers RotiRumah" className="aspect-[16/9] w-full object-cover" />
+              <img src={`${import.meta.env.BASE_URL}images/hampers.jpg`} alt="Hampers RotiRumah" className="aspect-[16/9] w-full object-cover" />
               <div className="p-6">
                 <p className="flex items-center gap-2 font-display text-xl font-extrabold">
                   <Gift className="h-5 w-5 text-butter-400" /> Ringkasan hampers
