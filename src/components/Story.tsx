@@ -207,7 +207,7 @@ export function Footer() {
               <MessageCircle className="h-4.5 w-4.5" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/bundaihza01/"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram RotiRumah"
@@ -235,16 +235,16 @@ export function Footer() {
             <MapPin className="h-4 w-4" /> Mampir / Pesan
           </h3>
           <ul className="mt-4 space-y-2.5 text-sm text-cocoa-100/70">
-            <li>Jl. Kenanga No. 12 (dapur rumahan, pagar kuning)</li>
-            <li>Pickup gratis · Delivery radius 8 km</li>
+            <li><a href="https://www.google.com/maps/search/?api=1&query=P72W%2BRW5%2C%20Jl.%20Jati%20Rasa%20Tengah%2C%20RT.003%2FRW.007%2C%20Karangpawitan%2C%20Kec.%20Karawang%20Bar.%2C%20Karawang%2C%20Jawa%20Barat%2041311" target="_blank" rel="noreferrer" className="underline-offset-4 transition-colors hover:text-butter-400 hover:underline">P72W+RW5, Jl. Jati Rasa Tengah, RT.003/RW.007, Karangpawitan, Kec. Karawang Bar., Karawang, Jawa Barat 41311</a></li>
+            <li>Pickup sesuai konfirmasi · Hubungi kami untuk delivery</li>
             <li>
               <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noreferrer" className="font-bold text-cocoa-50 underline-offset-4 transition-colors hover:text-butter-400 hover:underline">
-                +62 812-3456-7890
+                +62 895-3647-10807
               </a>
             </li>
             <li>
-              <a href="mailto:halo@rotirumah.id" className="font-bold text-cocoa-50 underline-offset-4 transition-colors hover:text-butter-400 hover:underline">
-                halo@rotirumah.id
+              <a href="https://www.instagram.com/bundaihza01/" target="_blank" rel="noreferrer" className="font-bold text-cocoa-50 underline-offset-4 transition-colors hover:text-butter-400 hover:underline">
+                @bundaihza01
               </a>
             </li>
           </ul>
